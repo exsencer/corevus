@@ -33,7 +33,7 @@ aliases:
 ```
 
 ### Temperature sensors
-The `temperature_mcu` reads out the temperature of the `ctb` microcontroller `CvBoardTherm` is a 10kΩ, 3950K SMD thermistor that I use on various parts of the
+The `temperature_mcu` reads out the temperature of the `ctb` microcontroller `CvBoardTherm` is a 10kΩ, 3950K SMD thermistor that I use on various parts of the toolboard. To enable M0_THERM, solder the jumper found at the rear bottom left next to the heater mosfet.
 ```
 [temperature_sensor Toolboard]
 sensor_type: temperature_mcu
